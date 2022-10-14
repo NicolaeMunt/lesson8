@@ -1,0 +1,28 @@
+div {
+    float: left;
+    height: 300px;
+}
+.div1 {
+    width: 50%;
+    background-color: blue;
+
+}
+.div2{
+    width: 50%;
+    background-color: aqua;
+}
+
+
+
+Body {
+background-color: none;
+}
+@media only screen and (max-width:600px){
+    body {
+        background-color: blanchedalmond;
+       
+    }
+    #hide {
+        display: none;
+    }
+}
